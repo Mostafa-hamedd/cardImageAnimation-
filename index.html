@@ -128,11 +128,11 @@
 					`
 					// console.log(popupImage[index])
 					document.querySelector('.popup-image1').style.display = "flex";
-					document.querySelector('.popup-image1').classList.remove("popup-close");
+					document.querySelector('.popup-image1').classList.remove("popup-open");
 					// document.querySelector(".popup-image1 img").src = background.getAttribute("src");
 					(document.getElementById("close")).addEventListener("click",()=>{
 						// document.querySelector('.popup-image1').style.display = "none";
-						document.querySelector('.popup-image1').classList.toggle("popup-close");
+						document.querySelector('.popup-image1').classList.toggle("popup-open");
 						console.log("dsa"); 
 					})
 				}
